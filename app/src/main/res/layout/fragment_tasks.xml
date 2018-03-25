@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thethirdbit.time.effi.Goals.Tasks">
+
+    <!-- TODO: Update blank fragment layout -->
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />-->
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".Goals.GoalsActivity"
+        >
+    <RelativeLayout
+        android:background="#f0f0f0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <RelativeLayout
+            android:elevation="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relLayout1">
+
+            <include layout="@layout/app_bar_goals"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#eceff1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relLayout2"
+            android:layout_below="@+id/relLayout1"
+            >
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list_todo"
+                android:elevation="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <!--<include layout="@layout/layout_middle_timetable"/>-->
+
+
+        </RelativeLayout>
+
+        <!--<include layout="@layout/layout_bottomnavigation"/>-->
+        <!--<com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemBackground="@color/colorPrimaryDark"
+            app:itemTextColor="#000000"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:background="?android:attr/windowBackground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:menu="@menu/navigation"
+            android:layout_alignParentBottom="true"/>-->
+
+
+    </RelativeLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
+
+</FrameLayout>

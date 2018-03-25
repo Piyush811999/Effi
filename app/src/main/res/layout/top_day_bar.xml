@@ -1,0 +1,35 @@
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/primaryLightColor">
+
+        <android.support.v7.widget.Toolbar
+            android:elevation="4dp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/dayNameBar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:id="@+id/dayName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day"
+                    android:textColor="@color/primaryDarkColor"
+                    android:textSize="40sp"
+                     />
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+</merge>

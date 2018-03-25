@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:fontFamily="sans-serif-smallcaps"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logo_white"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/materialviewpager_logoHeight"
+    android:text="Time-Table"
+    android:textSize="30sp"
+    android:textColor="@android:color/primary_text_dark"/>
